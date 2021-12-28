@@ -1,0 +1,61 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "Multirotor",
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 512,
+        "Height": 288,
+        "FOV_Degrees": 90,
+        "AutoExposureSpeed": 100,
+        "AutoExposureBias": 0,
+        "AutoExposureMaxBrightness": 0.64,
+        "AutoExposureMinBrightness": 0.03,
+        "MotionBlurAmount": 0,
+        "TargetGamma": 1.0,
+        "ProjectionMode": "",
+        "OrthoWidth": 5.12
+      }
+    ]
+  },
+  "DefaultSensors": {
+    "Barometer": {
+         "SensorType": 1,
+         "Enabled" : true
+    },
+    "Imu": {
+         "SensorType": 2,
+         "Enabled" : true
+    },
+    "Gps": {
+         "SensorType": 3,
+         "Enabled" : true
+    },
+    "Magnetometer": {
+         "SensorType": 4,
+         "Enabled" : true
+    },
+    "Distance": {
+         "SensorType": 5,
+         "Enabled" : true
+    },
+    "Lidar2": {
+         "SensorType": 6,
+         "Enabled" : true,
+         "NumberOfChannels": 4,
+         "PointsPerSecond": 10000
+    }
+},
+  "OriginGeopoint": {
+    "Latitude": 47.64197914136834,
+    "Longitude": -122.14017833284416,
+    "Altitude": 141
+  },
+  "SubWindows": [
+    {"WindowID": 0, "CameraName": "3", "ImageType": 3, "Visible": true},
+    {"WindowID": 1, "CameraName": "3", "ImageType": 0, "Visible": true},
+    {"WindowID": 2, "CameraName": "3", "ImageType": 5, "Visible": true}
+  ]
+}
