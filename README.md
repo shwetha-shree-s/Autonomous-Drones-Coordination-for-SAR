@@ -2,7 +2,7 @@
 
 ECE 546 Wireless Communication Final Project
 
-Contributor: Mingju Liu, Shwetha
+Contributor: Mingju Liu, Shwetha Shree Satish
 
 Advised by: Chuanneng Sun, Dr. Dario Pompili
 
